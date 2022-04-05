@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/view_pager_fragment">
+
+    <fragment
+        android:id="@+id/view_pager_fragment"
+        android:name="com.challenge.nasaimageviewer.ui.main.HomeViewPagerFragment"
+        tools:layout="@layout/fragment_view_pager">
+    </fragment>
+
+<!--    <fragment-->
+<!--        android:id="@+id/FullScreenFragment"-->
+<!--        android:name="com.challenge.nasaimageviewer.ui.main.FullScreenFragment"-->
+<!--        android:label="@string/fullscreen_fragment_label"-->
+<!--        tools:layout="@layout/fragment_fullscreen">-->
+<!--        <action-->
+<!--            android:id="@+id/action_FullScreenFragment_to_SecondFragment"-->
+<!--            app:destination="@id/SecondFragment" />-->
+<!--    </fragment>-->
+
+<!--    <fragment-->
+<!--        android:id="@+id/SecondFragment"-->
+<!--        android:name="com.challenge.nasaimageviewer.SecondFragment"-->
+<!--        android:label="@string/second_fragment_label"-->
+<!--        tools:layout="@layout/fragment_second">-->
+<!--        <action-->
+<!--            android:id="@+id/action_SecondFragment_to_FullScreenFragment"-->
+<!--            app:destination="@id/FullScreenFragment" />-->
+<!--    </fragment>-->
+
+</navigation>
