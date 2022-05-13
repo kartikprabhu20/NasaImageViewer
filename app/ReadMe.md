@@ -14,4 +14,4 @@ Features:
 * The recycler view is designed with databinding practices.
 * BindingAdapters are used for onClick, and details are filled with NasaImageData entity directly.
 
-*Details from fullscreen are displayed in a seperate activity while details of gallery are displayed in a fragment.
+* Details from fullscreen are displayed in a seperate activity while details of gallery are displayed in a fragment.
